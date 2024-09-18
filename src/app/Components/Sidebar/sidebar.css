@@ -1,0 +1,11 @@
+
+
+.recent{
+    animation: fadein 1.5s;
+}
+@media(max-width:600px){
+.sidebar{
+    display:none;
+}
+
+}

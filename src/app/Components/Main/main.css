@@ -1,0 +1,79 @@
+ span {
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.card{
+height: 200px;
+padding: 15px;
+background-color:#cde3fc ;
+cursor: pointer;
+position: relative;
+border-radius: 10px;
+
+
+}
+.card Image{
+width: 35px;
+padding: 5px;
+position: absolute;
+border-radius: 20px;
+background-color: white;
+bottom: 10px;
+right: 10px;
+}
+
+.card:hover{
+    background-color: #dfe4ea;
+}
+.search-box Image{
+    width: 24px;
+    cursor: pointer;
+}
+.result::-webkit-scrollbar{
+    display: none;
+}
+.loader hr{
+    border-radius: 4px;
+    border: none;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right,#9ed7ff,#ffffff,#9ed7ff);
+    background-size:800px 50px ;
+    height: 20px;
+    animation: loader 3s infinite linear;
+}
+
+@keyframes loader{
+    0%{
+        background-position: -800px 0px;
+    }
+    100%{
+        background-position: 800px 0px;
+    }
+}
+
+@media (max-width:600px){
+    .main-bottom input{
+        flex: none;
+        width: 150px;
+    }
+    .main-bottom Image{
+        width: 20px;
+    }
+    .search-box{
+        padding:5px 10px ;
+
+    }
+    .search-box div{
+        gap: 5px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        padding:35px 30px;
+    }
+    .Greet{
+        font-size: 35px;
+    }
+}
