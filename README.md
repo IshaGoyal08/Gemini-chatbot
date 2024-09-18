@@ -1,3 +1,6 @@
+GEMINI - CHATBOT (Using Next.js, Tailwind CSS and Gemini Api)
+This chatbot is built using Gemini Api incorporating react Hooks like useContext and useState for effecient data handling and communication.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
