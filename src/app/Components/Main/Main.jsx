@@ -22,7 +22,7 @@ const Main = () => {
         <p>Gemini</p>
         <Image width={40} height={40}
           className=" rounded-[50%]"
-          src="/images/user_icon.png"
+          src="/Images/user_icon.png"
           alt=""
         />
       </div>
@@ -42,30 +42,30 @@ const Main = () => {
             <div className="cards grid grid-cols-4 gap-[15px] p-[20px] ">
               <div className="card">
                 <p>Suggest beautiful places to see on an upcoming road trip</p>
-                <Image width={35} height={35}  src="/images/compass_icon.png" alt="" />
+                <Image width={35} height={35}  src="/Images/compass_icon.png" alt="" />
               </div>
               <div className="card">
                 <p>Briefly summarize this concept: urban planning</p>
-                <Image width={35} height={35} src="/images/bulb_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/bulb_icon.png" alt="" />
               </div>
               <div className="card">
                 <p>Brainstorm team bonding activities for our work retreat</p>
-                <Image width={35} height={35} src="/images/message_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/message_icon.png" alt="" />
               </div>
               <div className="card">
                 <p>Improve the readability of the following code</p>
-                <Image width={35} height={35} src="/images/code_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/code_icon.png" alt="" />
               </div>
             </div>
           </>
         ) : (
           <div className="result py-0 px-[5%] max-h-[70vh] overflow-y-scroll">
             <div className="bg-[#dce9f8] p-3 rounded-md result-title mx-[0px] my-[40px] flex items-center gap-[20px]">
-              <Image width={40} height={40} src="/images/user_icon.png" alt="" className="w-[40px] rounded-[50%]"/>
+              <Image width={40} height={40} src="/Images/user_icon.png" alt="" className="w-[40px] rounded-[50%]"/>
               <pre className="whitespace-pre-wrap ">{recentprompt}</pre>
             </div>
             <div className="result-data bg-[#dce9f8] px-4 py-5 w-full rounded-md flex items-start gap-[20px] ">
-              <Image width={40} height={40} src="/images/gemini_icon.png" alt="" className="w-[40px] rounded-[50%]"/>
+              <Image width={40} height={40} src="/Images/gemini_icon.png" alt="" className="w-[40px] rounded-[50%]"/>
               {loading? <div className="loader flex flex-col gap-[10px] w-[100%]"><hr />
               <hr />
               <hr /></div>: <pre className="text-[18px] whitespace-pre-wrap font-[300] tracking-tighter leading-[1.8]" dangerouslySetInnerHTML={{__html:resultdata}}></pre>}
@@ -91,7 +91,7 @@ const Main = () => {
              
              {input? <Image width={24} height={24}
                 onClick={() => onSent()}
-                src="/images/send_icon.png"
+                src="/Images/send_icon.png"
                 alt=""
               />:null}
             </div>
