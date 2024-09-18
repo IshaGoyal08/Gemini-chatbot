@@ -14,23 +14,12 @@ border-radius: 10px;
 
 
 }
-.card Image{
-width: 35px;
-padding: 5px;
-position: absolute;
-border-radius: 20px;
-background-color: white;
-bottom: 10px;
-right: 10px;
-}
+
 
 .card:hover{
     background-color: #dfe4ea;
 }
-.search-box Image{
-    width: 24px;
-    cursor: pointer;
-}
+
 .result::-webkit-scrollbar{
     display: none;
 }

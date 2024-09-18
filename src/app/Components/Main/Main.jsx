@@ -42,19 +42,19 @@ const Main = () => {
             <div className="cards grid grid-cols-4 gap-[15px] p-[20px] ">
               <div className="card">
                 <p>Suggest beautiful places to see on an upcoming road trip</p>
-                <Image width={35} height={35}  src="/Images/compass_icon.png" alt="" />
+                <Image width={35} height={35}  src="/Images/compass_icon.png" alt="" className="absolute bottom-[10px] right-[10px] bg-white rounded-[20px] p-[5px]"/>
               </div>
               <div className="card">
                 <p>Briefly summarize this concept: urban planning</p>
-                <Image width={35} height={35} src="/Images/bulb_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/bulb_icon.png" alt=""  className="absolute bottom-[10px] right-[10px] bg-white rounded-[20px] p-[5px]"/>
               </div>
               <div className="card">
                 <p>Brainstorm team bonding activities for our work retreat</p>
-                <Image width={35} height={35} src="/Images/message_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/message_icon.png" alt=""  className="absolute bottom-[10px] right-[10px] bg-white rounded-[20px] p-[5px]"/>
               </div>
               <div className="card">
                 <p>Improve the readability of the following code</p>
-                <Image width={35} height={35} src="/Images/code_icon.png" alt="" />
+                <Image width={35} height={35} src="/Images/code_icon.png" alt=""  className="absolute bottom-[10px] right-[10px] bg-white rounded-[20px] p-[5px]"/>
               </div>
             </div>
           </>
@@ -93,6 +93,7 @@ const Main = () => {
                 onClick={() => onSent()}
                 src="/Images/send_icon.png"
                 alt=""
+                className="cursor-pointer"
               />:null}
             </div>
           </div>
